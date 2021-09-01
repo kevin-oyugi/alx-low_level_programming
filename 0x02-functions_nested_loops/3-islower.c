@@ -3,7 +3,9 @@
 /**
  *main: _islower - check for lowercase
  *
- *Definition: @c: c is an ascii character
+ *Definition:
+ *
+ * @c: Ascii character
  *
  *Return: 1 if lowercase
  */
