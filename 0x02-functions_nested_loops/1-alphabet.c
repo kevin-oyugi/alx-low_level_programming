@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main: print alphabet
+ * main: print_alphabet
  *
  *Description: lowcase letters
  *
- * Return: void
+ * Return: 0 Always
  */
 
 void print_alphabet(void)
