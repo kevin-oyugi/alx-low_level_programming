@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
+ *main: jack_bauer - prints every minute
  *
+ *Definition: hours & minutes
+ *
+ *Return: void
  */
 
 void jack_bauer(void)
