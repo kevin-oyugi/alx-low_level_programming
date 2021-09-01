@@ -3,7 +3,7 @@
 /**
  *main: _islower - check for lowercase
  *
- *Definition: lowercase alphabets
+ *Definition: @c: c is an ascii character
  *
  *Return: 1 if lowercase
  */
