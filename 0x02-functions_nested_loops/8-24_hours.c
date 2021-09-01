@@ -20,7 +20,7 @@ void jack_bauer(void)
 			hours_1 = hours / 10;
 			hours_2 = hours % 10;
 			minutes_1 = minutes / 10;
-			minutes_2 = minuttes % 10;
+			minutes_2 = minutes % 10;
 
 			_putchar('0' + hours_1);
 			_putchar('0' + hours_2);
