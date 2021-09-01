@@ -10,9 +10,9 @@
 
 void print_alphabet(void)
 {
-	char letter = 'a';
+	char lower = 'a';
 
-	while (letter <= 'z')
+	while (lower <= 'z')
 	{
 		_putchar(letter);
 		letter++;
