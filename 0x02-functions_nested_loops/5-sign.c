@@ -1,14 +1,13 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main: print_sign - print sign
- *
+ * main: print_sign - prints the sign of a number
  * Description:
+ * @n: n is an integer
  *
- * @n: Interger
- *
- * Return: 1 if  +, 0 if 0, -1 if -
+ * Return: 1 (if positive), 0 (if zero), -1 (if negative)
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
@@ -22,8 +21,8 @@ int print_sign(int n)
 		return (-1);
 	}
 	else
-        {
+	{
 		_putchar('0');
-	        return (0);
-        }
+		return (0);
+	}
 }
