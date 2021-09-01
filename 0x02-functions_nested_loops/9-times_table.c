@@ -10,35 +10,37 @@
 
 void times_table(void)
 {
-	int row, column, product, tens, ones;
+	int num1[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	int num2[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	int i, j;
+	int result;
+	int first_digit;
+	int last_digit;
 
-	for (row = 0; row <= 9; row++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (column = 0; column <= 9; column++)
+		for (j = 0; j <= 9; j++)
 		{
-			product = row * column;
-			tens = product / 10;
-			ones = product % 10;
-
-			if (column == 0)
-			{
-				_putchar('0');
-			}
-			else if (product < 10)
+			result = num1[i] * num2[j];
+			first_digit = result / 10;
+			last_digit = result % 10;
+			if (j != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-				_putchar(ones + '0');
+				if (result < 10)
+					_putchar(' ');
 			}
+			if (result < 10)
+				_putchar('0' + result);
 			else
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(tens + '0');
-				_putchar(ones + '0');
+				_putchar('0' + first_digit);
+				_putchar('0' + last_digit);
 			}
 		}
 		_putchar('\n');
 	}
+
+
 }
