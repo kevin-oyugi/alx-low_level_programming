@@ -1,11 +1,19 @@
 #include "main.h"
 
+/**
+ *main: print_alphabet_x10
+ *
+ *Description: print alphabet x10
+ *
+ *Return: void
+ */
+
 void print_alphabet_x10(void)
 {
-	int repeat = 0;
+	int display  = 0;
 	char alphabet = 'a';
 
-	while (repeat < 10)
+	while (display < 10)
 	{
 		alphabet = 'a';
 		while (alphabet <= 'z');
@@ -15,6 +23,6 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 
-		repeat++;
+		display++;
 	}
 }
