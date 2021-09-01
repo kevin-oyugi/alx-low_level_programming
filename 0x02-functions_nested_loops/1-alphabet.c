@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main: print_alphabet
+ * main: print_alphabet - print alphabet
  *
  *Description: lowcase letters
  *
- * Return: 0 Always
+ * Return: void
  */
 
 void print_alphabet(void)
@@ -14,8 +14,8 @@ void print_alphabet(void)
 
 	while (lower <= 'z')
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(lower);
+		lower++;
 	}
 	_putchar('\n');
 }
