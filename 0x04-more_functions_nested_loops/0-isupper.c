@@ -2,7 +2,7 @@
 
 /**
  * main: _isupper - checks for uppercase
- * Description:
+ * 
  * @c: character to checked for case
  *
  * Return: 1 if uppercase, 0 if not uppercase
