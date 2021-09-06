@@ -11,13 +11,13 @@
 
 void print_array(int *a, int n)
 {
-	int contador;
+	int element;
 
 	if (n > 0)
-		for (contador = 0; contador < n; contador++)
+		for (element = 0; element < n; element++)
 		{
-			printf("%d", a[contador]);
-			if (contador < n - 1)
+			printf("%d", a[element]);
+			if (element < n - 1)
 				printf(", ");
 		}
 	printf("\n");
