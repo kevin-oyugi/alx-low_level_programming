@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ *
+ */
+
+int _strlen(char *s)
+{
+	char *length = s;
+
+	while (*s)
+	{
+		s++;
+	}
+
+	return (s - length);
+}
