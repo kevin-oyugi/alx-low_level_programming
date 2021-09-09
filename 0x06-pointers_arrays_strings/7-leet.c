@@ -1,28 +1,28 @@
 #include "main.h"
 
 /**
- * main: leet - put 1 when is a uppercase
- * Definition:
- * @s: takes in an integer
- * Return: 1 if is uppercase and 0 if is lowcase
+ * leet - Encodes a string into 1337
+ * @s: String to be encoded
+ *
+ * Return: Pointer to the encoded string
  */
 
 char *leet(char *s)
 {
-	int len;
-	int i;
-	char let[10] = "aAeEoOtTlL";
-	char num[10] = "4433007711";
+	int i, j;
+	char leet[] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	for (len = 0; s[len] != '\0'; len++)
+	i = 0;
+
+	while (s[i])
 	{
-		for (i = 0; let[i] != '\0'; i++)
+		for (j = 0; j <= 7; j++)
 		{
-			if (s[len] == let[i])
-			{
-				s[len] = num[i];
-			}
+			if (s[i] == leet[j] || s[i] - 32 == leet[j])
+				s[i] = j + '0';
 		}
+		i++;
 	}
+
 	return (s);
 }
