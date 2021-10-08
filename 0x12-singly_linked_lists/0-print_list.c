@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
- * main:
- * print_list - Prints all the elements of a list
+ * main: print_list - Prints all the elements of a list
  * definition:
  * @h: Pointer to the list to be printed
  *
