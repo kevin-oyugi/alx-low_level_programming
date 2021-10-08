@@ -6,8 +6,9 @@
 #include <string.h>
 
 /**
- * struct listint_s - singly linked list
- * @n: integer
+ * struct list_s - singly linked list
+ * @str: (malloc'ed string)
+ * @len: Length of the string
  * @next: points to the next node
  *
  * Description: singly linked list node structure
