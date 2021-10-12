@@ -8,7 +8,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX  project
  */
 typedef struct listint_s
 {
@@ -16,4 +16,9 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+
+/* Definition of function prototypes */
+
 size_t print_listint(const listint_t *h);
+
+#endif /* !LISTS_H */
