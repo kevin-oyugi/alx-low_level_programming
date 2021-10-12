@@ -1,7 +1,11 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
 
+/* Definition of standard library header files */
+#include <stdlib.h>
+#include <stdio.h>
 #include <stddef.h>
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
